@@ -2,6 +2,8 @@
 
 This gem is a gemify of the Manuel van Rijn jquery_numeric_inputs pluging. It allows us to set inputs in our forms as only numeric. This gem works with Rails 3, not tested on Rails 4.
 
+For more information please check out https://github.com/manuelvanrijn/jquery-numeric_input
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -24,14 +26,9 @@ First of all include this to your Application.js
 
 (If you are using the power of Asset Pipeline you don't need to)
 
-Second, just go to your input and insert:
+Have fun.
 
-    <%= form_for @user do |u| %>
-        <%= u.text_field :name %>
-        <%= u.text_field :age, class: "numeric_field" %>
-    <% end %>
-
-Third, have fun.
+More info on: https://github.com/manuelvanrijn/jquery-numeric_input
 
 ## Contributing
 

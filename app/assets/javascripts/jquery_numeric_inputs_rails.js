@@ -131,9 +131,3 @@
   };
 
 }( jQuery, window, document ));
-
-$(document).on("ready", function(event){
-  var field = event.field;
-  var fields = field.find('.numeric_field');
-  fields.numeric_input({decimal: '.'});
-})
