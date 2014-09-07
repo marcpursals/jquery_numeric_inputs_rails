@@ -26,10 +26,10 @@ First of all include this to your Application.js
 
 Second, just go to your input and insert:
 
-  <%= form_for @user do |u| %>
-    <%= u.text_field :name %>
-    <%= u.text_field :age, class: "numeric_field" %>
-  <% end %>
+    <%= form_for @user do |u| %>
+        <%= u.text_field :name %>
+        <%= u.text_field :age, class: "numeric_field" %>
+    <% end %>
 
 Third, have fun.
 
